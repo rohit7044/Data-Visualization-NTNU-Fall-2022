@@ -1,0 +1,14 @@
+Course: NTNU Data Visualization (Prof. Wang)
+Title: The Bee Happy Dashboard
+Team members: 
+1.	Tim Wywiol | 61147087S | 61147087S@ntnu.edu.tw
+	- PowerPoint
+	- Code: Time-series charts of bee data including interaction,tooltip, brushing and zooming
+2.	Vanisha Singh | 91199085X | 91199085X@ntnu.edu.tw
+	- PowerPoint
+	- Story
+	- Code: Map
+3.	Rohit Das | 61047086s | 61047086s@ntnu.edu.tw
+	- Code: Weather Data Analysis
+	- Code: ToolTip
+	- Video recording

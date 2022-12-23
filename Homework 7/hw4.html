@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="d3-tip.js"></script>
+        <script src="main.js"></script>
+        
+    </head>
+    <body onload = "main()">
+        <style>   
+            .tooltip {
+                background-color: black;
+                border: none;
+                border-radius: 5px;
+                padding: 15px;
+                text-align: left;
+                color: white;
+                display: inline;
+                position: fixed;
+            }
+            .brushed {
+                stroke: black;
+                stroke-width: 1px;
+            }
+        </style>
+        <div>
+            <div id="scatterchart" style="display:inline-block;"></div>
+            <div id="mapchart" style="display:inline-block;"></div>
+            <div id="barchart" style="display:inline-block;"></div>
+        </div>
+    </body>
+</html>

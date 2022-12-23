@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Bee Dashboard</title>
+</head>
+
+<body>
+  <style>   
+        .tooltip {
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: left;
+            color: white;
+            display: inline;
+            position: fixed;
+        }
+        .brushed {
+            stroke: black;
+            stroke-width: 1px;
+        }
+        /* #bee-weather {
+
+        } */
+    </style>
+    <h1>Bee Happy Dashboard</h1>
+        <div id="story" style="display:inline-block;"></div>
+    <h4 id="timerange"></h4>
+    <div height: 400px; width: 100%; style="white-space: nowrap;">
+        <div id="bee-weight" style="display:inline-block;"></div>
+        <div id="bee-temp" style="display:inline-block;"></div>
+        <div id="bee-humi" style="display:inline-block;"></div>
+    </div>
+   <div height: 800px; width: 800px; style="white-space: nowrap;">
+        <div id="bee-weather" style="display:inline-block;top: 75%;transform: translate(0, -75%);"></div>
+        <div id="bee-map" style="display:inline-block;"></div>
+        <div id="weather-forecast" style="display:inline-block;top: 100%;transform: translate(0, -100%);"></div>
+    </div>
+    
+    <script src="https://d3js.org/d3.v7.js"></script>
+    <script type="module" src="main.js"></script>
+
+
+
+
+
+</body>
+
+</html>

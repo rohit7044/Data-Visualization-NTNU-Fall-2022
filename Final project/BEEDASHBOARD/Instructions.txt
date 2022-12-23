@@ -1,0 +1,11 @@
+# Beedashboard
+Bee Health monitoring dashboard
+# Instructions
+ - We need to make sure we use D3 v7 in order to run this project.
+ - Download the Dataset from the following [website](https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/).
+- We need **air_temperature**, **precipitation**,**solar**,**wind** Dataset and make sure to put it in the data folder.
+- We need to make sure we download the dataset from the **recent** which has every 10 minutes data of last 500 days.
+- The Germany GEOJSON file will be already available in the data folder.
+- We need api key access in order to get the latest forecast data from [world Weather Online](https://www.worldweatheronline.com/weather-api/api/docs/historical-weather-api.aspx).
+- After following the above steps, we run the **index.html** and it will run the website.
+- We can then interact with the 3 graphs and visualize the data for further analysis.
